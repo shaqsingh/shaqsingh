@@ -38,7 +38,7 @@
     color: transparent;
     border: none;
     outline: none;
-    background: (0,0,0,0.5);
+    background: transparent;
 }
 .slick-prev:hover,
 .slick-prev:focus,
@@ -47,7 +47,7 @@
 {
     color: transparent;
     outline: none;
-    background: red;
+    background: transparent;
 }
 .slick-prev:hover:before,
 .slick-prev:focus:before,
@@ -69,8 +69,8 @@
     font-size: 20px;
     line-height: 1;
 
-    opacity: .75;
-    color: white;
+    opacity: .25;
+    color: black;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -121,7 +121,7 @@
 .slick-dots
 {
     position: absolute;
-    bottom: -45px;
+    bottom: -15px;
 
     display: block;
 
